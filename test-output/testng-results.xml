@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Page verified]]>
+    </line>
+    <line>
+      <![CDATA[Link present]]>
+    </line>
+    <line>
+      <![CDATA[Number of products getting displayed on page are correct]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="25242" started-at="2020-06-22T09:31:47Z" finished-at="2020-06-22T09:32:12Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="25242" started-at="2020-06-22T09:31:47Z" finished-at="2020-06-22T09:32:12Z">
+      <class name="com.zipal.test.VerifyCart">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.zipal.test.VerifyCart@7c16905e]" name="beforeMethod" is-config="true" duration-ms="17505" started-at="2020-06-22T15:01:47Z" finished-at="2020-06-22T15:02:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyPage()[pri:0, instance:com.zipal.test.VerifyCart@7c16905e]" name="verifyPage" duration-ms="3084" started-at="2020-06-22T15:02:04Z" finished-at="2020-06-22T15:02:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Page verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyPage -->
+        <test-method status="PASS" signature="verifyLink()[pri:0, instance:com.zipal.test.VerifyCart@7c16905e]" name="verifyLink" duration-ms="71" started-at="2020-06-22T15:02:07Z" depends-on-methods="com.zipal.test.VerifyCart.verifyPage" finished-at="2020-06-22T15:02:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Link present]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLink -->
+        <test-method status="PASS" signature="verifyProductsOnPhonesAndPDAsPage()[pri:0, instance:com.zipal.test.VerifyCart@7c16905e]" name="verifyProductsOnPhonesAndPDAsPage" duration-ms="4323" started-at="2020-06-22T15:02:08Z" depends-on-methods="com.zipal.test.VerifyCart.verifyPage" finished-at="2020-06-22T15:02:12Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Number of products getting displayed on page are correct]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProductsOnPhonesAndPDAsPage -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.zipal.test.VerifyCart@7c16905e]" name="afterMethod" is-config="true" duration-ms="237" started-at="2020-06-22T15:02:12Z" finished-at="2020-06-22T15:02:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.zipal.test.VerifyCart -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
